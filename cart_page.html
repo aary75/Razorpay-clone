@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/87768d5180.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <img src="/Images/logo.png" id="logo" class="absolute inline-block w-[100px] h-[100px]
+    left-7 top-6">
+    <div id="navbar">
+        <a href="http://127.0.0.1:5500/HTML/Project/homepage.html"><span id="home">Home</span></a>
+        <a href="http://127.0.0.1:5500/HTML/Project/about_page.html" target="_blank"><span>About Us</span></a>
+        <a href="http://127.0.0.1:5500/HTML/Project/product_1.html" target="_blank"><span>Luxe</span></a>
+        <a href="http://127.0.0.1:5500/HTML/Project/Contact_page.html" target="_blank"><span>Contact Us</span></a>
+    </div>
+
+    <div id="search-section">
+        <input type="search" placeholder="Search" class="search-field"/>
+        <button type="submit" class="search-button">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button> 
+    </div>
+     
+    <div id="login">
+    <a href="http://127.0.0.1:5500/HTML/Project/Login_page.html" target="_blank"><span id="log">Login/</span></a>
+   <a href=""><span id="register">Register</span></a>
+   </div>
+    <div><i class="fa-regular fa-user"></i></div>
+    
+#logo{
+    display:inline-block;
+    position:absolute;
+    width:100px;
+    height:100px;
+    left:90px;
+    top:15px;
+}
+
+#navbar{
+    position:absolute;
+    left:250px;
+    top:40px;
+}
+
+#navbar a{
+    text-decoration:none;
+    color:black;
+}
+#home{
+    width:40px;
+    height:30px;
+}
+#navbar span{
+    padding:40px;
+    font-family:'Lato',sans-serif;
+}
+
+#navbar span:hover{
+    color:red;
+    cursor:pointer;
+}
+
+</body>
+</html>

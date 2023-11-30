@@ -1,0 +1,4 @@
+/* width : 10/12 (i.e.83%);
+flex  -: to make flex
+justify-between -: justify-content :space-between;
+mx-auto : margin-auto */
